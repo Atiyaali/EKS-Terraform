@@ -1,0 +1,21 @@
+# Local .tfvars files (contains sensitive tokens or variables)
+*.tfvars
+*.tfvars.json
+
+# Local .terraform directories and files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash_*log
+*.hcl
+
+# Local authentication or override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
