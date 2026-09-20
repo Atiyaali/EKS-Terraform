@@ -9,8 +9,8 @@ on:
       - main
 
 permissions:
-  id-token: write   # This is REQUIRED to request the OIDC JWT token from GitHub
-  contents: read    # Required to check out your repository code
+  id-token: write   
+  contents: read    
 
 jobs:
   terraform:
