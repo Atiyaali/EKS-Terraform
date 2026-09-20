@@ -19,9 +19,12 @@ variable "cluster_version" {
 variable "admin_user" {
   type        = string
   description = "ARN of the admin user"
+  default     = "arn:aws:iam::972011045435:user/eks-admin"
 }
 
 variable "developer_user" {
   type        = string
   description = "ARN of the developer user"
+  default     = "arn:aws:iam::972011045435:user/eks-developer"
 }
+
