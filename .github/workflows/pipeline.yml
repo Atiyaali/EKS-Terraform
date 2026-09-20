@@ -26,6 +26,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::972011045435:role/OIDC-ROLE
           aws-region: us-east-1
+          audience: sts.amazonaws.com
 
       - name: Test AWS CLI Access
         run: aws sts get-caller-identity
